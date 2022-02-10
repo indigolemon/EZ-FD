@@ -1,0 +1,507 @@
+EESchema Schematic File Version 4
+EELAYER 30 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 1 1
+Title "EZ-DF0 Clone"
+Date "2020-08-01"
+Rev "0.02"
+Comp "Amiga Accelerator Alliance"
+Comment1 "Based on Eyetech EZ-DF0"
+Comment2 "Reverse Engineered by indigolemon & mkstr"
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L Device:R R1
+U 1 1 5F0F15AD
+P 4050 3350
+F 0 "R1" V 3843 3350 50  0000 C CNN
+F 1 "R115K" V 3934 3350 50  0000 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 3980 3350 50  0001 C CNN
+F 3 "~" H 4050 3350 50  0001 C CNN
+	1    4050 3350
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:CP C1
+U 1 1 5F0F26D0
+P 4700 3250
+F 0 "C1" H 4818 3296 50  0000 L CNN
+F 1 "CP4.7u" H 4818 3205 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 4738 3100 50  0001 C CNN
+F 3 "~" H 4700 3250 50  0001 C CNN
+	1    4700 3250
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector_Generic:Conn_02x17_Odd_Even CN2
+U 1 1 5F1001E9
+P 9750 3650
+F 0 "CN2" H 9800 4667 50  0000 C CNN
+F 1 "FDD Cable" H 9800 4576 50  0000 C CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_2x17_P2.54mm_Vertical" H 9750 3650 50  0001 C CNN
+F 3 "~" H 9750 3650 50  0001 C CNN
+	1    9750 3650
+	-1   0    0    -1  
+$EndComp
+$Comp
+L Connector_Generic:Conn_02x17_Odd_Even CN1
+U 1 1 5F0FC538
+P 1850 3650
+F 0 "CN1" H 1900 4667 50  0000 C CNN
+F 1 "Amiga Floppy Port" H 1900 4576 50  0000 C CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_2x17_P2.54mm_Vertical" H 1850 3650 50  0001 C CNN
+F 3 "~" H 1850 3650 50  0001 C CNN
+	1    1850 3650
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1650 2850 1300 2850
+Wire Wire Line
+	10150 4450 9950 4450
+Wire Wire Line
+	10150 2850 9950 2850
+Wire Wire Line
+	9950 4350 10150 4350
+Connection ~ 10150 4350
+Wire Wire Line
+	10150 4350 10150 4450
+Wire Wire Line
+	9950 4250 10150 4250
+Connection ~ 10150 4250
+Wire Wire Line
+	10150 4250 10150 4350
+Wire Wire Line
+	9950 4150 10150 4150
+Connection ~ 10150 4150
+Wire Wire Line
+	10150 4150 10150 4250
+Wire Wire Line
+	9950 4050 10150 4050
+Connection ~ 10150 4050
+Wire Wire Line
+	10150 4050 10150 4150
+Wire Wire Line
+	9950 3950 10150 3950
+Wire Wire Line
+	10150 2850 10150 3050
+Connection ~ 10150 3950
+Wire Wire Line
+	10150 3950 10150 4050
+Wire Wire Line
+	9950 3850 10150 3850
+Connection ~ 10150 3850
+Wire Wire Line
+	10150 3850 10150 3950
+Wire Wire Line
+	9950 3750 10150 3750
+Connection ~ 10150 3750
+Wire Wire Line
+	10150 3750 10150 3850
+Wire Wire Line
+	9950 3650 10150 3650
+Connection ~ 10150 3650
+Wire Wire Line
+	10150 3650 10150 3750
+Wire Wire Line
+	9950 3550 10150 3550
+Connection ~ 10150 3550
+Wire Wire Line
+	10150 3550 10150 3650
+Wire Wire Line
+	9950 3450 10150 3450
+Connection ~ 10150 3450
+Wire Wire Line
+	10150 3450 10150 3550
+Wire Wire Line
+	9950 3350 10150 3350
+Connection ~ 10150 3350
+Wire Wire Line
+	10150 3350 10150 3450
+Wire Wire Line
+	9950 3250 10150 3250
+Connection ~ 10150 3250
+Wire Wire Line
+	10150 3250 10150 3350
+Wire Wire Line
+	9950 3150 10150 3150
+Connection ~ 10150 3150
+Wire Wire Line
+	10150 3150 10150 3250
+Wire Wire Line
+	9950 3050 10150 3050
+Connection ~ 10150 3050
+Wire Wire Line
+	10150 3050 10150 3150
+Wire Wire Line
+	1300 2850 1300 3050
+Wire Wire Line
+	1300 4450 1650 4450
+Wire Wire Line
+	1300 3050 1650 3050
+Connection ~ 1300 3050
+Wire Wire Line
+	1300 3050 1300 3150
+Wire Wire Line
+	1300 3150 1650 3150
+Connection ~ 1300 3150
+Wire Wire Line
+	1300 3150 1300 3250
+Wire Wire Line
+	1300 3250 1650 3250
+Connection ~ 1300 3250
+Wire Wire Line
+	1300 3250 1300 3350
+Wire Wire Line
+	1300 3350 1650 3350
+Connection ~ 1300 3350
+Wire Wire Line
+	1300 3350 1300 3450
+Wire Wire Line
+	1300 3450 1650 3450
+Connection ~ 1300 3450
+Wire Wire Line
+	1300 3450 1300 3550
+Wire Wire Line
+	1300 3550 1650 3550
+Connection ~ 1300 3550
+Wire Wire Line
+	1300 3550 1300 3650
+Wire Wire Line
+	1300 3650 1650 3650
+Connection ~ 1300 3650
+Wire Wire Line
+	1300 3650 1300 3750
+Wire Wire Line
+	1300 3750 1650 3750
+Connection ~ 1300 3750
+Wire Wire Line
+	1300 3750 1300 3850
+Wire Wire Line
+	1300 3850 1650 3850
+Connection ~ 1300 3850
+Wire Wire Line
+	1300 3850 1300 3950
+Wire Wire Line
+	1300 3950 1650 3950
+Connection ~ 1300 3950
+Wire Wire Line
+	1300 3950 1300 4050
+Wire Wire Line
+	1300 4050 1650 4050
+Connection ~ 1300 4050
+Wire Wire Line
+	1300 4050 1300 4150
+Wire Wire Line
+	1300 4150 1650 4150
+Connection ~ 1300 4150
+Wire Wire Line
+	1300 4150 1300 4250
+Wire Wire Line
+	1300 4250 1650 4250
+Connection ~ 1300 4250
+Wire Wire Line
+	1300 4250 1300 4350
+Wire Wire Line
+	1300 4350 1650 4350
+Connection ~ 1300 4350
+Wire Wire Line
+	1300 4350 1300 4450
+Wire Wire Line
+	2150 2850 2350 2850
+Wire Wire Line
+	2350 2850 2350 4850
+Wire Wire Line
+	2350 4850 9450 4850
+$Comp
+L Diode:1N4148 D1
+U 1 1 5F0EEF51
+P 4050 2950
+F 0 "D1" H 4050 3167 50  0000 C CNN
+F 1 "1N4148" H 4050 3076 50  0000 C CNN
+F 2 "Diode_SMD:D_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 4050 2775 50  0001 C CNN
+F 3 "https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf" H 4050 2950 50  0001 C CNN
+	1    4050 2950
+	-1   0    0    -1  
+$EndComp
+Wire Wire Line
+	2150 2950 2250 2950
+Wire Wire Line
+	2250 2950 2250 3550
+Wire Wire Line
+	2250 3550 2150 3550
+Connection ~ 3900 2950
+Wire Wire Line
+	9250 3550 9450 3550
+Wire Wire Line
+	2150 3150 2550 3150
+Wire Wire Line
+	2550 3150 2550 2250
+Wire Wire Line
+	2550 2250 9350 2250
+Wire Wire Line
+	9350 2250 9350 3150
+Wire Wire Line
+	9350 3150 9450 3150
+Wire Wire Line
+	2150 3250 2650 3250
+Wire Wire Line
+	2650 3250 2650 2350
+Wire Wire Line
+	2650 2350 9150 2350
+Wire Wire Line
+	9150 2350 9150 3250
+Wire Wire Line
+	9150 3250 9450 3250
+Wire Wire Line
+	9450 3250 9450 3350
+Connection ~ 9450 3250
+Wire Wire Line
+	2150 3650 2450 3650
+Wire Wire Line
+	2450 2050 9050 2050
+Wire Wire Line
+	9050 2050 9050 3650
+Wire Wire Line
+	9050 3650 9450 3650
+Wire Wire Line
+	2150 3750 2450 3750
+Wire Wire Line
+	2450 3750 2450 4750
+Wire Wire Line
+	2450 4750 9350 4750
+Wire Wire Line
+	9350 3750 9450 3750
+Wire Wire Line
+	2150 4050 2250 4050
+Wire Wire Line
+	2250 4050 2250 4950
+Wire Wire Line
+	9150 4050 9450 4050
+Wire Wire Line
+	9050 4150 9450 4150
+Wire Wire Line
+	2150 4250 2750 4250
+Wire Wire Line
+	2750 4250 2750 5150
+Wire Wire Line
+	2750 5150 8950 5150
+Wire Wire Line
+	8950 4250 9450 4250
+Wire Wire Line
+	2150 4350 2850 4350
+Wire Wire Line
+	2850 4350 2850 5250
+Wire Wire Line
+	2850 5250 8850 5250
+Wire Wire Line
+	8850 4350 9450 4350
+Wire Wire Line
+	3900 3350 3900 2950
+Wire Wire Line
+	4200 3350 4200 2950
+Connection ~ 1300 4450
+Wire Wire Line
+	8850 5250 8850 4350
+Wire Wire Line
+	8950 5150 8950 4250
+Wire Wire Line
+	9050 5050 9050 4150
+Wire Wire Line
+	9150 4950 9150 4050
+Wire Wire Line
+	9350 4750 9350 3750
+Wire Wire Line
+	9450 4850 9450 4450
+Wire Wire Line
+	2250 4950 9150 4950
+Wire Wire Line
+	4200 2950 4700 2950
+Connection ~ 4200 2950
+Connection ~ 2250 2950
+Wire Wire Line
+	2250 2950 3900 2950
+Wire Wire Line
+	2450 2050 2450 3650
+$Comp
+L power:GND #GND0101
+U 1 1 5F4D0933
+P 1300 5600
+F 0 "#GND0101" H 1300 5350 50  0001 C CNN
+F 1 "GND" H 1388 5563 50  0000 L CNN
+F 2 "" H 1300 5600 50  0001 C CNN
+F 3 "" H 1300 5600 50  0001 C CNN
+	1    1300 5600
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:VCC #PWR0104
+U 1 1 5F53DFB1
+P 8650 3750
+F 0 "#PWR0104" H 8650 3600 50  0001 C CNN
+F 1 "VCC" H 8665 3923 50  0000 C CNN
+F 2 "" H 8650 3750 50  0001 C CNN
+F 3 "" H 8650 3750 50  0001 C CNN
+	1    8650 3750
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	8650 3750 8650 3950
+$Comp
+L 74xGxx:74LVC1G32 OR1
+U 1 1 5F559E1E
+P 6500 3200
+F 0 "OR1" H 6475 3467 50  0000 C CNN
+F 1 "74LVC1G32" H 6475 3376 50  0000 C CNN
+F 2 "Package_TO_SOT_SMD:SOT-23-5_HandSoldering" H 6500 3200 50  0001 C CNN
+F 3 "http://www.ti.com/lit/sg/scyt129e/scyt129e.pdf" H 6500 3200 50  0001 C CNN
+	1    6500 3200
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2150 4450 7100 4450
+Wire Wire Line
+	7100 4450 7100 3200
+Wire Wire Line
+	7100 3200 6750 3200
+Wire Wire Line
+	4700 2950 6200 2950
+Wire Wire Line
+	6200 2950 6200 3150
+Connection ~ 4700 2950
+$Comp
+L power:GND #PWR0101
+U 1 1 5F65426C
+P 6500 3550
+F 0 "#PWR0101" H 6500 3300 50  0001 C CNN
+F 1 "GND" H 6505 3377 50  0000 C CNN
+F 2 "" H 6500 3550 50  0001 C CNN
+F 3 "" H 6500 3550 50  0001 C CNN
+	1    6500 3550
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6500 3300 6500 3550
+Wire Wire Line
+	6500 2850 6500 3100
+Wire Wire Line
+	6200 3250 6200 3700
+Wire Wire Line
+	9250 3850 9450 3850
+Wire Wire Line
+	9250 4650 9250 3850
+Wire Wire Line
+	2150 3850 2550 3850
+Wire Wire Line
+	2550 3850 2550 4650
+Wire Wire Line
+	2550 4650 9250 4650
+Wire Wire Line
+	4700 3100 4700 2950
+$Comp
+L power:GND #GND0102
+U 1 1 5F6C4444
+P 10150 5550
+F 0 "#GND0102" H 10150 5300 50  0001 C CNN
+F 1 "GND" H 10238 5513 50  0000 L CNN
+F 2 "" H 10150 5550 50  0001 C CNN
+F 3 "" H 10150 5550 50  0001 C CNN
+	1    10150 5550
+	1    0    0    -1  
+$EndComp
+Connection ~ 10150 4450
+Wire Wire Line
+	10150 4450 10150 5550
+$Comp
+L power:VCC #PWR0102
+U 1 1 5F6F2868
+P 6500 2750
+F 0 "#PWR0102" H 6500 2600 50  0001 C CNN
+F 1 "VCC" H 6515 2923 50  0000 C CNN
+F 2 "" H 6500 2750 50  0001 C CNN
+F 3 "" H 6500 2750 50  0001 C CNN
+	1    6500 2750
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	8650 3950 9450 3950
+$Comp
+L power:VCC #PWR0103
+U 1 1 5F723C27
+P 3000 3950
+F 0 "#PWR0103" H 3000 3800 50  0001 C CNN
+F 1 "VCC" H 3015 4123 50  0000 C CNN
+F 2 "" H 3000 3950 50  0001 C CNN
+F 3 "" H 3000 3950 50  0001 C CNN
+	1    3000 3950
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2150 3950 3000 3950
+Wire Wire Line
+	2650 5050 9050 5050
+Wire Wire Line
+	2150 4150 2650 4150
+Wire Wire Line
+	2650 4150 2650 5050
+Wire Wire Line
+	9250 2950 9250 3550
+Wire Wire Line
+	9250 2950 9450 2950
+Connection ~ 9250 2950
+Wire Wire Line
+	9250 2150 9250 2950
+Wire Wire Line
+	3900 2950 3900 2150
+Wire Wire Line
+	3900 2150 9250 2150
+Wire Wire Line
+	2650 3250 2650 3700
+Wire Wire Line
+	2650 3700 6200 3700
+Connection ~ 2650 3250
+Wire Wire Line
+	1300 4450 1300 5600
+$Comp
+L power:GND #PWR0105
+U 1 1 5F7F3C82
+P 4700 3400
+F 0 "#PWR0105" H 4700 3150 50  0001 C CNN
+F 1 "GND" H 4705 3227 50  0000 C CNN
+F 2 "" H 4700 3400 50  0001 C CNN
+F 3 "" H 4700 3400 50  0001 C CNN
+	1    4700 3400
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C C2
+U 1 1 5F804489
+P 6800 2850
+F 0 "C2" V 6548 2850 50  0000 C CNN
+F 1 "C100n" V 6639 2850 50  0000 C CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 6838 2700 50  0001 C CNN
+F 3 "~" H 6800 2850 50  0001 C CNN
+	1    6800 2850
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	6500 2850 6650 2850
+Connection ~ 6500 2850
+$Comp
+L power:GND #PWR0106
+U 1 1 5F822B20
+P 7150 2850
+F 0 "#PWR0106" H 7150 2600 50  0001 C CNN
+F 1 "GND" H 7155 2677 50  0000 C CNN
+F 2 "" H 7150 2850 50  0001 C CNN
+F 3 "" H 7150 2850 50  0001 C CNN
+	1    7150 2850
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6950 2850 7150 2850
+Wire Wire Line
+	6500 2750 6500 2850
+$EndSCHEMATC
