@@ -1,15 +1,15 @@
 BOM for EZ-FD @ Farnell
 
-ID	|	Desc														|	Manu Part No				| Farnell Order Code	| Unit Cost (£)
+ID   |  Desc                             |  Manu Part No        |  Farnell Order Code  |  Unit Cost (£)
 
-		|	Board														|											|											| 0.24
+     |  Board                            |                      |                      |  0.24
 
-C1	|	0603 4u7 Capacitor							| C0603C475K9PACTU		| 9227784							| 0.139
-C2	|	0603 100n	Capacitor							| C0603C104M4RACTU		| 2581045							| 0.0167
-R1	|	0603 115k	Resistor							| MCWR06X1153FTL			| 2447236							| 0.0041
-D1	|	0603 (SOD-323) 1N4148	Diode			| 1N4148WS-7-F				| 1843678							| 0.154
-CN1	|	PCB Receptacle 2x17 Right-Angle	| 613034243121				|	2827964							| 1.84
-CN2	|	Pin Header 2x17	Right-Angle			| 61303421021					|	2356205							| 1.02
-OR1	|	SOT-23-5 74LVC1G32							| SN74LVC1G32DBVR			| 3120618							| 0.203
+C1   |  0603 4u7 Capacitor               |  C0603C475K9PACTU    |  9227784             |  0.139
+C2   |  0603 100n  Capacitor             |  C0603C104M4RACTU    |  2581045             |  0.0167
+R1   |  0603 115k  Resistor              |  MCWR06X1153FTL      |  2447236             |  0.0041
+D1   |  0603 (SOD-323) 1N4148  Diode     |  1N4148WS-7-F        |  1843678             |  0.154
+CN1  |  PCB Receptacle 2x17 Right-Angle  |  613034243121        |  2827964             |  1.84
+CN2  |  Pin Header 2x17  Right-Angle     |  61303421021         |  2356205             |  1.02
+OR1  |  SOT-23-5 74LVC1G32               |  SN74LVC1G32DBVR     |  3120618             |  0.203
 
-																																			 Total Cost: £3.62 per Board
+                                                                           Total Cost: £3.62 per Board
